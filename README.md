@@ -14,6 +14,7 @@ The project leverages JUnit and Mockito for comprehensive testing to guarantee t
 - **Java Spring Boot:** A powerful framework for building Java-based enterprise applications.
 - **JUnit:** A widely-used testing framework for Java applications.
 - **Mockito:** A mocking framework for effective unit testing.
+- **AWS SES (Simple Email Service):** Chosen as the email delivery service for reliable and scalable email sending.
 
 ## Project Structure
 The project is organized based on the clean architecture principles, consisting of the following layers:
