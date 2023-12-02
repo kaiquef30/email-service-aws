@@ -18,7 +18,6 @@ The project leverages JUnit and Mockito for comprehensive testing to guarantee t
 
 ## Project Structure
 The project is organized based on the clean architecture principles, consisting of the following layers:
-- **Entities:** Represent domain entities and business logic.
 - **Use Cases:** Define application-specific use cases and business rules.
 - **Adapters:** Implement the interfaces defined in the use cases layer and connect to external frameworks or libraries.
 - **Frameworks & Drivers:** Contain the external frameworks, libraries, and delivery mechanisms such as web controllers.
