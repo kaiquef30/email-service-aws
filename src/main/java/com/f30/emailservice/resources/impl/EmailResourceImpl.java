@@ -1,6 +1,6 @@
 package com.f30.emailservice.resources.impl;
 
-import com.f30.emailservice.application.EmailSenderService;
+import com.f30.emailservice.application.EmailSenderUseCaseServiceImpl;
 import com.f30.emailservice.core.EmailRequest;
 import com.f30.emailservice.core.exceptions.EmailServiceException;
 import com.f30.emailservice.resources.EmailResource;
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/email")
 public class EmailResourceImpl implements EmailResource {
 
-    private final EmailSenderService emailSenderService;
+    private final EmailSenderUseCaseServiceImpl emailSenderService;
 
     @Override
     public ResponseEntity<String> sendEmail(EmailRequest request) {

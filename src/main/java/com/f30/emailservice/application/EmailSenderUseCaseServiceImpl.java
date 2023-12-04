@@ -1,17 +1,17 @@
 package com.f30.emailservice.application;
 
 import com.f30.emailservice.adapters.EmailSenderGateway;
-import com.f30.emailservice.core.EmailSender;
+import com.f30.emailservice.core.EmailSenderUseCase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class EmailSenderService implements EmailSender {
+public class EmailSenderUseCaseServiceImpl implements EmailSenderUseCase {
 
     private final EmailSenderGateway emailSenderGateway;
 
     @Autowired
-    public EmailSenderService(EmailSenderGateway emailGateway) {
+    public EmailSenderUseCaseServiceImpl(EmailSenderGateway emailGateway) {
         this.emailSenderGateway = emailGateway;
     }
 
