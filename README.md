@@ -21,3 +21,7 @@ The project is organized based on the clean architecture principles, consisting 
 - **Use Cases:** Define application-specific use cases and business rules.
 - **Adapters:** Implement the interfaces defined in the use cases layer and connect to external frameworks or libraries.
 - **Frameworks & Drivers:** Contain the external frameworks, libraries, and delivery mechanisms such as web controllers.
+
+## Author
+
+- [Kaique Fernando](https://github.com/kaiquef30)
